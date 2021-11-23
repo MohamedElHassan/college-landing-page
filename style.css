@@ -61,9 +61,10 @@ header ul li a:hover {
 .about {
     background-color: lightgrey;
 }
-.about .about-content p  {
+.about .about-content p {
     color: grey;
     padding:0 0 30px;
+    text-align: center;
 }
 /* Start experience section styling */
 
