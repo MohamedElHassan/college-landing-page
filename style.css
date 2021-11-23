@@ -1,0 +1,153 @@
+/* Start Global Rules */
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    height:3000px;
+    font-family: 'Poppins', sans-serif;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0 ;
+    color:#695c60;
+}
+.container {
+    padding:0 40px;
+}
+/* Start header styling */
+
+header {
+    background-color: lightgrey;
+    height: 80px;
+    width:100%;
+}
+header ul {
+    padding-top:calc(80px - 50px);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+header ul li a {
+    text-decoration:none;
+    color:grey;
+    transition: all 0.3s ease ;
+}
+header ul li a:hover {
+    color:#fff;
+}
+/* Start home section styling */
+
+.home {
+    background-color:crimson;
+    color: #fff;
+    height: 400px;
+    text-align: center;
+}
+.home .home-content {
+    padding: 130px 0 0;
+}
+.home .home-content h1 {
+    font-size: 60px;
+}
+/* Start about section styling */
+
+.about {
+    background-color: lightgrey;
+    height: 300px;
+}
+.about .about-content p  {
+    color: grey;
+}
+.experience{
+    height: 450px;
+}
+/* Start experience section styling */
+
+.experience .experience-content .companies{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap:20px;
+}
+.experience .experience-content .companies .comp{
+    background-color:#ececec;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+}
+.experience .experience-content .companies .comp h2{
+    color:crimson;
+    padding:0 0 10px;
+}
+.experience .experience-content .companies .comp h2 p{
+    color:lightgrey;
+}
+
+/* Start contact section styling */
+.contact {
+    height: 450px;
+    background-color:crimson;
+    text-align: center;
+}
+.contact .title {
+    color:#fff;
+}
+
+.contanct .contact-content form {
+    display: block;
+}
+.contact .contact-content form .name {
+    font-size: 25px;
+    width:50%;
+    padding: 10px;
+    border-radius:20px;
+    border: none;
+    margin-bottom:10px;
+}
+.contact .contact-content form .email {
+    font-size: 25px;
+    width:50%;
+    padding: 10px;
+    border-radius:20px;
+    border: none;
+    margin-bottom:10px;
+}
+.contact .contact-content form .message {
+    font-size: 25px;
+    width:50%;
+    padding: 10px;
+    border-radius:20px;
+    border: none;
+}
+.contact .contact-content form input[type=submit] {
+    padding:20px;
+    width: 50%;
+    border-radius:20px;
+    border:none;
+    background-color:#777;
+    color:#fff;
+    font-size: 20px;
+
+}
+
+/* Start footer styling */
+footer {
+    height: 80px;
+    background-color: lightgrey;
+    text-align:center;
+}
+footer p{
+    padding:calc(80px - 40px);
+}
+
+
+/* The End :-) */
