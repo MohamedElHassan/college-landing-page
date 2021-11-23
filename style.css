@@ -143,6 +143,9 @@ footer {
 footer p{
     padding:calc(80px - 50px) 0 0;
 }
+footer p a{
+    color:crimson;
+}
 
 
 /* The End :-) */
