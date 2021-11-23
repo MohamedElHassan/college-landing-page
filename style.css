@@ -79,6 +79,14 @@ header ul li a:hover {
     padding: 20px;
     text-align: center;
 }
+.experience .experience-content .companies .date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience .experience-content .companies .date p{
+    padding: 0 3px 0
+}
 .experience .experience-content .companies .comp h2{
     color:crimson;
     padding:0 0 10px;
