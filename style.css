@@ -7,10 +7,8 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    
 }
 body {
-    height:3000px;
     font-family: 'Poppins', sans-serif;
 }
 .title {
@@ -50,11 +48,10 @@ header ul li a:hover {
 .home {
     background-color:crimson;
     color: #fff;
-    height: 400px;
     text-align: center;
 }
 .home .home-content {
-    padding: 130px 0 0;
+    padding: 130px 0 50px;
 }
 .home .home-content h1 {
     font-size: 60px;
@@ -63,20 +60,18 @@ header ul li a:hover {
 
 .about {
     background-color: lightgrey;
-    height: 300px;
 }
 .about .about-content p  {
     color: grey;
-}
-.experience{
-    height: 450px;
+    padding:0 0 30px;
 }
 /* Start experience section styling */
 
 .experience .experience-content .companies{
     display:grid;
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
     grid-gap:20px;
+    padding:0 0 20px;
 }
 .experience .experience-content .companies .comp{
     background-color:#ececec;
@@ -94,7 +89,6 @@ header ul li a:hover {
 
 /* Start contact section styling */
 .contact {
-    height: 450px;
     background-color:crimson;
     text-align: center;
 }
@@ -102,11 +96,12 @@ header ul li a:hover {
     color:#fff;
 }
 
-.contanct .contact-content form {
+.contact .contact-content form {
     display: block;
+    padding:0 0 20px;
 }
 .contact .contact-content form .name {
-    font-size: 25px;
+    font-size:20px;
     width:50%;
     padding: 10px;
     border-radius:20px;
@@ -114,7 +109,7 @@ header ul li a:hover {
     margin-bottom:10px;
 }
 .contact .contact-content form .email {
-    font-size: 25px;
+    font-size:20px;
     width:50%;
     padding: 10px;
     border-radius:20px;
@@ -122,7 +117,7 @@ header ul li a:hover {
     margin-bottom:10px;
 }
 .contact .contact-content form .message {
-    font-size: 25px;
+    font-size:20px;
     width:50%;
     padding: 10px;
     border-radius:20px;
@@ -136,7 +131,7 @@ header ul li a:hover {
     background-color:#777;
     color:#fff;
     font-size: 20px;
-
+    cursor: pointer;
 }
 
 /* Start footer styling */
@@ -146,7 +141,7 @@ footer {
     text-align:center;
 }
 footer p{
-    padding:calc(80px - 40px);
+    padding:calc(80px - 50px) 0 0;
 }
 
 
